@@ -4,8 +4,8 @@ Using assets pipeline, base on https://github.com/chloerei/wmd version, witch fo
 
 ## History
 
-Original WMD and Showdwon code copyright (c) 2007 John Fraser
-Modifications and bugfixes (c) 2009-2010 Chris Jester-Young, Dana Robinson, Anand Chitipothu
+Original WMD and Showdwon code copyright (c) 2007 John Fraser  
+Modifications and bugfixes (c) 2009-2010 Chris Jester-Young, Dana Robinson, Anand Chitipothu  
 Further modifications (c) 2010-2011 Jarvis Badgley, Wenqiang Wang, Helder Ribeiro, Chad Burggraf
 
 ## Dependency
