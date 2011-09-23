@@ -1,0 +1,175 @@
+
+.wmd-panel
+{
+	margin-left: 25%;
+	margin-right: 25%;
+	width: 50%;
+	min-width: 500px;
+}
+
+#wmd-editor
+{
+	background-color: Aquamarine;
+}
+
+.wmd-button-bar 
+{
+	width: 100%;
+	/*
+	background-color: Silver; 
+	*/
+}
+
+.wmd-input 
+{ 
+	height: 500px;
+	width: 100%;
+	background-color: Gainsboro;
+	border: 1px solid DarkGray;
+}
+
+.wmd-preview 
+{ 
+	background-color: LightGray; 
+}
+
+.wmd-output 
+{ 
+	background-color: Pink;
+}
+
+.wmd-button-row 
+{
+	position: relative;
+	margin:0px;
+	padding: 5px;  
+	height: 20px;
+}
+
+.wmd-spacer
+{
+	width: 1px; 
+	height: 20px; 
+	margin-left: 7px;
+	margin-right:7px;
+	
+	position: relative;
+	background-color: Silver;
+	display: inline-block;  zoom:1; *display:inline;
+	list-style: none;
+}
+
+.wmd-button
+{
+	width: 20px; 
+	height: 20px; 
+	margin-left: 5px;
+	margin-right: 5px;
+	
+	position: relative;
+    background-image: url(<%= asset_path 'wmd-buttons.png' %>);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	display: inline-block; zoom:1; *display:inline;
+	list-style: none;
+}
+
+.wmd-button > a
+{
+	width: 20px; 
+	height: 20px; 
+	margin-left: 5px;
+	margin-right: 5px;
+	
+	position: absolute;
+	display: inline-block; 
+}
+
+
+/* sprite button slicing style information */
+.wmd-bold-button            {background-position: 0px   0px;}
+.wmd-bold-button:hover      {background-position: 0px -40px;}
+.wmd-bold-button.disabled   {background-position: 0px -20px;}
+
+.wmd-italic-button            {background-position: -20px   0px;}
+.wmd-italic-button:hover      {background-position: -20px -40px;}
+.wmd-italic-button.disabled   {background-position: -20px -20px;}
+
+.wmd-link-button            {background-position: -40px   0px;}
+.wmd-link-button:hover      {background-position: -40px -40px;}
+.wmd-link-button.disabled   {background-position: -40px -20px;}
+
+.wmd-quote-button            {background-position: -60px   0px;}
+.wmd-quote-button:hover      {background-position: -60px -40px;}
+.wmd-quote-button.disabled   {background-position: -60px -20px;}
+
+.wmd-code-button            {background-position: -80px   0px;}
+.wmd-code-button:hover      {background-position: -80px -40px;}
+.wmd-code-button.disabled   {background-position: -80px -20px;}
+
+.wmd-image-button            {background-position: -100px   0px;}
+.wmd-image-button:hover      {background-position: -100px -40px;}
+.wmd-image-button.disabled   {background-position: -100px -20px;}
+
+.wmd-olist-button            {background-position: -120px   0px;}
+.wmd-olist-button:hover      {background-position: -120px -40px;}
+.wmd-olist-button.disabled   {background-position: -120px -20px;}
+
+.wmd-ulist-button            {background-position: -140px   0px;}
+.wmd-ulist-button:hover      {background-position: -140px -40px;}
+.wmd-ulist-button.disabled   {background-position: -140px -20px;}
+
+.wmd-heading-button            {background-position: -160px   0px;}
+.wmd-heading-button:hover      {background-position: -160px -40px;}
+.wmd-heading-button.disabled   {background-position: -160px -20px;}
+
+.wmd-hr-button            {background-position: -180px   0px;}
+.wmd-hr-button:hover      {background-position: -180px -40px;}
+.wmd-hr-button.disabled   {background-position: -180px -20px;}
+
+.wmd-undo-button            {background-position: -200px   0px;}
+.wmd-undo-button:hover      {background-position: -200px -40px;}
+.wmd-undo-button.disabled   {background-position: -200px -20px;}
+
+.wmd-redo-button            {background-position: -220px   0px;}
+.wmd-redo-button:hover      {background-position: -220px -40px;}
+.wmd-redo-button.disabled   {background-position: -220px -20px;}
+
+.wmd-help-button            {background-position: -240px   0px;}
+.wmd-help-button:hover      {background-position: -240px -40px;}
+.wmd-help-button.disabled   {background-position: -240px -20px;}
+
+.wmd-help-button    {position:absolute;top:5px;right: 0px; background-position: -240px 0;}
+
+
+.wmd-prompt-background
+{
+	background-color: Black;
+}
+
+.wmd-prompt-dialog
+{
+	border: 1px solid #999999;
+	background-color: #F5F5F5;
+	font-size: 0.8em;
+	font-family: arial, helvetica, sans-serif;
+}
+
+.wmd-prompt-dialog > form > label {
+	font-size: 0.6em;
+	font-weight:bold;
+	margin:4px 0;
+}
+
+
+.wmd-prompt-dialog > form > input[type="text"] {
+	border: 1px solid #999999;
+	color: black;
+}
+
+.wmd-prompt-dialog > form > input[type="button"]{
+	border: 1px solid #888888;
+	font-family: trebuchet MS, helvetica, sans-serif;
+	font-size: 0.8em;
+	font-weight: bold;
+}
