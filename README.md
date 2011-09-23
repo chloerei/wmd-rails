@@ -17,12 +17,14 @@ Rails 3.1.1.rc1
 In you Gemfile
 
 ```ruby
-gem 'wmd-rails', :git => 'git@github.com:chloerei/wmd-rails.git'
+gem 'wmd-rails'
 ```
+
+Then `bundle install`
 
 ## Usage
 
-In app/assets/javascripts/editor.js or other
+In app/assets/javascripts/editor.js or other js
 
 ```javascript
 //= require wmd
@@ -39,7 +41,7 @@ $(function(){
 
 More wmd document: https://github.com/chloerei/wmd
 
-In app/assets/stylesheets/editor.css or other
+In app/assets/stylesheets/editor.css or other css
 
 ```css
 /*
@@ -55,7 +57,7 @@ In config/application.rb
 config.assets.precompile += %w(wmd-buttons.png editor.js editor.css)
 ```
 
-rake assets:precompile
+Then `rake assets:precompile`
 
 ## LICENSE
 
