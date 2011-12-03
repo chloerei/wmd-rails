@@ -10,7 +10,7 @@ Further modifications (c) 2010-2011 Jarvis Badgley, Wenqiang Wang, Helder Ribeir
 
 ## Dependency
 
-Rails 3.1.1.rc1
+Rails 3.1.1
 
 ## Install
 
