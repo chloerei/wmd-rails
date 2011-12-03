@@ -1,4 +1,4 @@
-# WMD Editor for rails 3.1
+# WMD Editor for rails
 
 Using assets pipeline, base on https://github.com/chloerei/wmd version, witch fork from https://github.com/ChiperSoft/wmd .
 
