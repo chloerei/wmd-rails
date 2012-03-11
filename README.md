@@ -35,7 +35,7 @@ $(function(){
     input: "editor-input",
     button_bar: "editor-button-bar",
     preview: "editor-preview",
-    buttons: "bold italic  link blockquote code image  ol ul heading hr  undo redo"
+    helpLink: "http://daringfireball.net/projects/markdown/syntax"
   });
 })
 ```
