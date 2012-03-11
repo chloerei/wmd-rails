@@ -27,14 +27,15 @@ Then `bundle install`
 In app/assets/javascripts/editor.js or other js
 
 ```javascript
-//= require wmd
-//= require showdown
+//= require wmd/wmd
+//= require wmd/showdown
 
 $(function(){
   new WMDEditor({
     input: "editor-input",
     button_bar: "editor-button-bar",
-    preview: "editor-preview"
+    preview: "editor-preview",
+    buttons: "bold italic  link blockquote code image  ol ul heading hr  undo redo"
   });
 })
 ```
@@ -45,7 +46,7 @@ In app/assets/stylesheets/editor.css or other css
 
 ```css
 /*
- *= require 'wmd'
+ *= require 'wmd/wmd'
 */
 ```
 
@@ -54,7 +55,7 @@ In app/assets/stylesheets/editor.css or other css
 In config/application.rb
 
 ```ruby
-config.assets.precompile += %w(wmd-buttons.png editor.js editor.css)
+config.assets.precompile += %w(editor.js editor.css)
 ```
 
 Then `rake assets:precompile`
